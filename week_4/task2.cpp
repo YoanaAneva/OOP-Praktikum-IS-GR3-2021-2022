@@ -123,5 +123,6 @@ class Fighter{
 };
 
 int main(){
-
+    Weapon myWeapon("gun", 100, 100);
+    Fighter myFighter("Gosho", 200, 100, myWeapon);
 }
